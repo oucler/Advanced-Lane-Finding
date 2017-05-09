@@ -2,6 +2,7 @@
 
 Goal of this project is to detect lanes on highway and output an annotated video which indicates regions of the lane with additional information. In order to detect lanes properly there are few steps are followed as listed below. 
 
+![[Prohject Video]](videos/project_video_out.gif)
 
 -  Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
 -  Apply a distortion correction to raw images.
@@ -20,7 +21,7 @@ video_generation.py is the main code that makes functions calls.lanehelper.py, L
 20 sample chessboard images were used for calibrating the camera. Initial step is to populate imagepoints and objectpoints then find and draw identified corners. As final two steps: undistort the image and warped the image. As an example one of the sample images are shown below from the original to warped image.  
 
 **Warped Chessboard Flow:**
-![[Warped Image]](camera_cal_out/WarpedBoard.png)
+![[Warped Image]](camera_cal_out/WarpedBoard.PNG)
 
 
 
@@ -33,11 +34,11 @@ Starting from original up to warped image steps are the same but we need additio
 
 **Sliding Windows:**
 
-![[Warped Image]](test_images_out/SlidingWindows.png)
+![[Warped Image]](test_images_out/SlidingWindows.PNG)
 
 **Drawn Lines:**
 
-![[Warped Image]](test_images_out/DrawnLines.png)
+![[Warped Image]](test_images_out/DrawnLines.PNG)
 
 
 
