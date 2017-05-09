@@ -4,7 +4,7 @@ Goal of this project is to detect lanes on highway and output an annotated video
 
 **Project Videos:**
 
-![Project Video](https://www.youtube.com/watch?v=9HRHobSYhRE)
+[Project Video](https://www.youtube.com/watch?v=9HRHobSYhRE)
 
 [Challenge Video](https://www.youtube.com/watch?v=mK_2OEAul3A)
 
