@@ -15,7 +15,7 @@ Goal of this project is to detect lanes on highway and output an annotated video
 
 video_generation.py is the main code that makes functions calls.lanehelper.py, LaneDetector.py, and Line.py are the helper functions.
 
-####1. Camera Calibration:
+#### 1. Camera Calibration:
 
 20 sample chessboard images were used for calibrating the camera. Initial step is to populate imagepoints and objectpoints then find and draw identified corners. As final two steps: undistort the image and warped the image. As an example one of the sample images are shown below from the original to warped image.  
 
@@ -24,12 +24,12 @@ video_generation.py is the main code that makes functions calls.lanehelper.py, L
 
 
 
-####2. Generating Binary Image and Finding Lane Boundary:
+#### 2. Generating Binary Image and Finding Lane Boundary:
 
 Starting from original up to warped image steps are the same but we need additional processes in order to generate a binary image with leaving only desired lines. Lines are not linear and we need to fit onto a two degree polynomial equation. After solving the curvature of birds eye view the   
 
 **Warped Image Flow:**
-![[Warped Image]](test_images_out/WarpedImage.png)
+![[Warped Image]](test_images_out/WarpedImage.PNG)
 
 **Sliding Windows:**
 
