@@ -3,7 +3,10 @@
 Goal of this project is to detect lanes on highway and output an annotated video which indicates regions of the lane with additional information. In order to detect lanes properly there are few steps are followed as listed below. 
 
 **Project Video:**
+![Project Video](https://www.youtube.com/watch?v=9HRHobSYhRE)
+
 [Project Video](https://www.youtube.com/watch?v=9HRHobSYhRE)
+
 [Challenge Video](https://www.youtube.com/watch?v=mK_2OEAul3A)
 
   <iframe width="560" height="315" src="https://www.youtube.com/watch?v=9HRHobSYhRE" frameborder="0" allowfullscreen></iframe>
