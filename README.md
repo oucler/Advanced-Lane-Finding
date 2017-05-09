@@ -2,7 +2,7 @@
 
 Goal of this project is to detect lanes on highway and output an annotated video which indicates regions of the lane with additional information. In order to detect lanes properly there are few steps are followed as listed below. 
 
-![[Project Video]](videos/project_video_out.mp4)
+![Project Video](videos/project_video_out.mp4)
 
 -  Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
 -  Apply a distortion correction to raw images.
