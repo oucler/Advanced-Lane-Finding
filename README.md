@@ -5,9 +5,9 @@ Goal of this project is to detect lanes on highway and output an annotated video
 **Project Video:**
 ![[Project Video]](https://www.youtube.com/watch?v=9HRHobSYhRE)
 
-<div class="iframe_container">
+
   <iframe width="560" height="315" src="https://www.youtube.com/watch?v=9HRHobSYhRE" frameborder="0" allowfullscreen></iframe>
-</div>
+
 -  Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
 -  Apply a distortion correction to raw images.
 -  Use color transforms, gradients, etc., to create a thresholded binary image.
