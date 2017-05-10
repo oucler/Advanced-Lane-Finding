@@ -30,7 +30,7 @@ video_generation.py is the main code that makes functions calls.lanehelper.py, L
 
 **Warped Chessboard Flow:**
 
-![[Warped Image]](camera_cal_out/WarpedBoard.png)
+![[Warped Image]](camera_cal_out/WarpedBoard.PNG)
 
 
 
@@ -41,27 +41,27 @@ Starting from original up to warped image steps are the same but we need additio
 
 **Warped Image Flow:**
 
-![[Warped Image]](test_images_out/WarpedImage.png)
+![[Warped Image]](test_images_out/WarpedImage.PNG)
 
 **Binary Image:**
 
 Gradient and sobel threshold applied to detect the lanes for the project_video but for the challenge video combination of gradient direction/gradient and sobel threshold used along with image processing techniques to detect under different light conditions. 
 
 
-![[Warped Image]](test_images_out/BinaryImage.png)
+![[Warped Image]](test_images_out/BinaryImage.PNG)
 
 **Sliding Windows:**
 
 From the binary image histogram applied to find a peak which is a good indicator for x-position of base lane lines. It is used as a starting point for where to search for the lines. From that point, using a sliding window, placed around the line centers, to find and follow the lines up to the top of the frame.
 
 
-![[Warped Image]](test_images_out/SlidingWindows.png)
+![[Warped Image]](test_images_out/SlidingWindows.PNG)
 
 **Drawn Lines:**
 
 The green shaded area shows where we searched for the lines this time. So, once you know where the lines are in one frame of video, you can do a highly targeted search for them in the next frame. This is equivalent to using a customized region of interest for each frame of video, and should help you track the lanes through sharp curves and tricky conditions. 
 
-![[Drawn Image]](test_images_out/DrawnLines.png)
+![[Drawn Image]](test_images_out/DrawnLines.PNG)
 
 
 ####3. Visual of Lane Boundaries and Status Information:
@@ -72,7 +72,7 @@ In above, which pixels belong to left and right lane lines are determined then t
 f(y)=Ay**​2+By+C
 
 
-![[Boundary Image]](test_images_out/Curvature.png)
+![[Boundary Image]](test_images_out/Curvature.PNG)
 
 
 ####4. Discussions:
