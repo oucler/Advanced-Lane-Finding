@@ -34,7 +34,7 @@ video_generation.py is the main code that makes functions calls.lanehelper.py, L
 
 
 
-####2. Generating Binary Image and Finding Lane Boundary:
+#### 2. Generating Binary Image and Finding Lane Boundary:
 
 
 Starting from original up to warped image steps are the same but we need additional processes in order to generate a binary image with leaving only desired lines. Lines are not linear and we need to fit onto a two degree polynomial equation. After solving the curvature of birds eye view the   
@@ -64,7 +64,7 @@ The green shaded area shows where we searched for the lines this time. So, once 
 ![[Drawn Image]](test_images_out/DrawnLines.PNG)
 
 
-####3. Visual of Lane Boundaries and Status Information:
+#### 3. Visual of Lane Boundaries and Status Information:
 
 In above, which pixels belong to left and right lane lines are determined then those pixel positions are fitted with a polynomial equation. To calculate the curve equations below for x/y and x is ignored because it is almost vertical.
 
@@ -75,7 +75,7 @@ f(y)=Ay**​2+By+C
 ![[Boundary Image]](test_images_out/Curvature.PNG)
 
 
-####4. Discussions:
+#### 4. Discussions:
 
 For roads conditions with high light contrast such as bright or shadow it is challenging to detect lane lines. Thus, it requires more computer vision techniques to identify lanes correctly. Also, mountain roads are more challenging to detect because curvature changes more frequently.Boundary region needs to be constrained to a much smaller area. 
 
